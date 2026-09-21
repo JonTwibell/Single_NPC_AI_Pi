@@ -209,7 +209,7 @@ sudo systemctl restart bavlorna.service
 | `input_mic.wav` | Scratch file for the current recording |
 | `response.mp3` | Scratch file for the current TTS output |
 
-## Notes
+## Notes For Git Edit
 
 Keep `.env` out of version control. A `.gitignore` containing at least the following is recommended:
 
