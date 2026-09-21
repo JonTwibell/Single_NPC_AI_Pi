@@ -8,7 +8,7 @@ Out of the box it's configured as **Bavlorna Blightstraw**, the hag from *The Wi
 
 1. **Voice activity detection** — the script streams mic audio and watches the RMS volume. Recording starts when you speak and stops after a configurable period of silence.
 2. **Transcription** — the captured WAV is sent to Groq's `whisper-large-v3-turbo`.
-3. **Pre-roll filler** — while the LLM thinks, a random pre-recorded MP3 plays from `question/` or `statement/`, depending on whether your sentence ended in a question mark. This hides the API latency.
+3. **Pre-roll filler** — while the LLM thinks, a random pre-recorded MP3 plays from `question/` or `statement/`, depending on whether your sentence ended in a question mark. This hides the API latency. (You can use ElevenLabs to record a mummer or sound someone might make while thinking or a narrator saying something like: Bavlorna studies you for a moment.")
 4. **Response generation** — the full conversation history (plus system persona and optional knowledge base) goes to a Groq chat model.
 5. **Speech synthesis** — the reply is converted to audio by ElevenLabs and played back through ALSA.
 
