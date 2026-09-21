@@ -32,7 +32,7 @@ Conversation history persists for the lifetime of the process, so the character 
 Clone the repo and run the setup script:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/JonTwibell/Single_NPC_AI_Pi/tree/main
 cd <your-repo-folder>
 chmod +x setup.sh
 ./setup.sh
