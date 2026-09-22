@@ -33,7 +33,7 @@ Clone the repo and run the setup script:
 
 ```bash
 git clone https://github.com/JonTwibell/Single_NPC_AI_Pi
-cd <your-repo-folder>
+cd Single_NPC_AI_Pi
 chmod +x setup.sh
 ./setup.sh
 ```
