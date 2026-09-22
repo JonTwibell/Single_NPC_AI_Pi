@@ -129,8 +129,8 @@ Wants=network-online.target sound.target
 [Service]
 Type=simple
 User=pi
-WorkingDirectory=/home/pi/your_project_folder
-ExecStart=/home/pi/your_project_folder/venv/bin/python3 /home/pi/your_project_folder/SingleCharacter.py
+WorkingDirectory=/home/pi/Single_NPC_AI_Pi
+ExecStart=/home/pi/Single_NPC_AI_Pi/venv/bin/python3 /home/pi/Single_NPC_AI_Pi/SingleCharacter.py
 Restart=on-failure
 RestartSec=5s
 
